@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Confiança não é uma feature — Diana Cassel. Sobre IA clínica, ergonomia cognitiva e o que muda quando o output do produto é uma sugestão.">
+  <title>Confiança não é uma feature — Diana Cassel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link" lang="pt">Pular para o conteúdo</a>
+  <a href="#main" class="skip-link" lang="en">Skip to content</a>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__brand">Diana Cassel</a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../work.html" lang="pt">Trabalho</a><a href="../work.html" lang="en">Work</a></li>
+          <li><a href="../about.html" lang="pt">Sobre</a><a href="../about.html" lang="en">About</a></li>
+          <li><a href="../writing.html" aria-current="page" lang="pt">Pensamento</a><a href="../writing.html" aria-current="page" lang="en">Writing</a></li>
+          <li><a href="../contact.html" lang="pt">Contato</a><a href="../contact.html" lang="en">Contact</a></li>
+          <li>
+            <div class="lang-toggle" role="group" aria-label="Language">
+              <button type="button" data-lang-btn="pt" aria-current="true">PT</button>
+              <span class="sep" aria-hidden="true">/</span>
+              <button type="button" data-lang-btn="en" aria-current="false">EN</button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="article">
+      <div class="container">
+        <div style="max-width: 880px;">
+          <div class="article__meta">
+            <a href="../writing.html" style="color: var(--ink-muted); text-decoration: underline; text-underline-offset: 3px;">
+              <span lang="pt">← Pensamento</span>
+              <span lang="en">← Writing</span>
+            </a>
+            <span class="dot" aria-hidden="true"></span>
+            <span lang="pt">Comentário</span>
+            <span lang="en">Commentary</span>
+            <span class="dot" aria-hidden="true"></span>
+            <span lang="pt">8 min de leitura</span>
+            <span lang="en">8 min read</span>
+            <span class="dot" aria-hidden="true"></span>
+            <span lang="pt">Março de 2026</span>
+            <span lang="en">March 2026</span>
+          </div>
+
+          <h1 class="article__title">
+            <span lang="pt">Confiança não é uma feature.</span>
+            <span lang="en">Trust is not a feature.</span>
+          </h1>
+
+          <p class="article__lead">
+            <span lang="pt">O que muda no design quando o output do produto deixa de ser uma tela e passa a ser uma sugestão — clínica, jurídica, financeira — que alguém precisa aceitar, recusar ou editar com consequência real.</span>
+            <span lang="en">What changes in design when the product's output stops being a screen and becomes a suggestion — clinical, legal, financial — that someone has to accept, reject, or edit with real consequence.</span>
+          </p>
+        </div>
+
+        <div class="prose">
+
+          <p lang="pt">
+            Por anos, design de produto digital pôde tratar a interface como o objeto final. Uma tela, um fluxo, um botão. O usuário lê, decide, clica. A responsabilidade pelo que aconteceu depois da decisão era inteiramente dele. O produto entregava a interface; ele entregava o julgamento.
+          </p>
+
+          <p lang="pt">
+            Com IA generativa em domínios sensíveis, esse contrato mudou. O que o produto entrega agora não é uma tela — é um <em>conteúdo</em>. Um resumo de prontuário. Uma minuta de contrato. Uma alocação de carteira. E esse conteúdo vem com um peso novo: ele é uma proposta, feita por uma máquina, sobre algo que tem consequência sobre uma pessoa concreta.
+          </p>
+
+          <p lang="pt">
+            Na saúde, esse deslocamento é particularmente claro. Quando um produto gera o sumário de uma consulta a partir da gravação, o output não é "uma tela". É uma narrativa clínica que vai entrar no prontuário do paciente. O médico precisa ler, comparar com o que ele lembra da conversa, identificar o que está errado, e decidir o que aceitar, o que editar, o que apagar. O trabalho cognitivo do médico, nesse fluxo, é diferente do trabalho de quem preenche um formulário.
+          </p>
+
+          <blockquote lang="pt">
+            A questão central deixou de ser "este produto é usável?". Passou a ser: "este produto produz uma proposta confiável o suficiente para que a pessoa decida sobre ela sem refazer todo o raciocínio?"
+          </blockquote>
+
+          <h2>
+            <span lang="pt">Acurácia não é o mesmo que confiabilidade</span>
+            <span lang="en">Accuracy is not the same as trustworthiness</span>
+          </h2>
+
+          <p lang="pt">
+            A primeira armadilha dos times que constroem IA aplicada é confundir os dois. Acurácia é o que se mede comparando output do modelo com gabarito. Confiabilidade é o que se constrói na relação entre quem usa e o que o produto sugere — e ela depende de coisas que o modelo nem toca: como o output aparece, como o produto se posiciona em relação ao que sugere, como ele permite ser corrigido, e o que faz quando erra.
+          </p>
+
+          <p lang="pt">
+            Vi isso em primeira mão liderando pesquisa em iniciativas de IA clínica. Um sumário com 92% de fidelidade textual era recusado por médicos em quase metade dos casos. A razão não era o que estava errado — era a sensação de não saber, antes de ler, onde estaria o erro. Os médicos não confiavam no que o modelo tinha feito porque o produto não dava pistas sobre o nível de certeza interno do próprio modelo.
+          </p>
+
+          <p lang="pt">
+            Subimos a precisão de 92% para 96% e a recusa caiu pouco. Adicionamos um indicador granular de confiança por trecho do sumário — e a recusa caiu pela metade. O modelo não tinha ficado melhor; o usuário tinha ganhado um instrumento para gastar atenção onde ela importava.
+          </p>
+
+          <h2>
+            <span lang="pt">A herança da ergonomia cognitiva</span>
+            <span lang="en">What cognitive ergonomics inherited us</span>
+          </h2>
+
+          <p lang="pt">
+            Esse tipo de problema não é novo. A ergonomia cognitiva — a disciplina que estuda como pessoas interagem com sistemas de informação — vem trabalhando há décadas com o que chama de <em>automation trust</em>: a confiança calibrada que um operador desenvolve em relação a um sistema automatizado.
+          </p>
+
+          <p lang="pt">
+            Os pesquisadores Raja Parasuraman e Christopher Wickens mostraram, em estudos sobre aviação e medicina dos anos 90, que dois tipos opostos de erro acontecem nessa relação: o <em>misuse</em> (confiar demais e não verificar) e o <em>disuse</em> (desconfiar demais e ignorar). Os dois custam. E os dois respondem a design — não a melhoria de modelo.
+          </p>
+
+          <p lang="pt">
+            O que isso significa, em prática: <strong>o desenho da interface entre o usuário e o output da IA é tão determinante do resultado quanto o próprio modelo.</strong> Como o produto comunica incerteza. Como ele torna visível o que ele não viu. Como ele convida correção sem desautorizar o modelo. Como ele permite que o usuário desligue o automatismo quando precisa.
+          </p>
+
+          <h2>
+            <span lang="pt">Cinco perguntas que substituem "isso é usável"</span>
+            <span lang="en">Five questions that replace "is this usable"</span>
+          </h2>
+
+          <p lang="pt">
+            No trabalho de pesquisa com produtos de IA, estas são as perguntas que comecei a usar no lugar das heurísticas tradicionais de usabilidade. Elas não substituem testes de usabilidade — funcionam como uma camada adicional, voltada especificamente para a relação de confiança.
+          </p>
+
+          <ol lang="pt">
+            <li><strong>O produto sinaliza, antes da leitura, onde provavelmente está errado?</strong> Atenção é finita. Se o usuário precisa ler tudo com igual cautela, o produto não economizou trabalho — só transferiu.</li>
+            <li><strong>O custo cognitivo de aceitar é simétrico ao de recusar?</strong> Se aceitar é um clique e recusar pede edição manual, o produto está empurrando o usuário para o sim. Isso compromete o julgamento.</li>
+            <li><strong>O produto registra o que foi corrigido — e mostra que registrou?</strong> Sem isso, o usuário sente que está sozinho contra o modelo, sem evidência de que sua correção importa.</li>
+            <li><strong>Existe um lugar visível para o "não sei"?</strong> Modelos generativos não sabem dizer "não sei" — eles inventam. O produto precisa fornecer essa categoria, e treinar o usuário a usá-la.</li>
+            <li><strong>O que o produto faz com um erro descoberto pelo usuário?</strong> Se for "nada", a próxima sugestão chega com a mesma autoridade da anterior. Se for "pede para o usuário marcar como errado e usa isso depois", a relação muda.</li>
+          </ol>
+
+          <h2>
+            <span lang="pt">O sentido por trás da decisão</span>
+            <span lang="en">The meaning behind the decision</span>
+          </h2>
+
+          <p lang="pt">
+            Há uma camada mais profunda, que comecei a investigar mais recentemente. Quando um produto entrega uma proposta clínica, ele não está só transferindo informação. Ele está participando de uma cena em que alguém — um médico — assume responsabilidade por outra pessoa. O sumário do produto vira parte de uma decisão sobre cuidado.
+          </p>
+
+          <p lang="pt">
+            Isso não cabe inteiramente na linguagem de UX. Cabe melhor em linguagens que estudam significação, vínculo e responsabilidade — psicanálise, semiótica, filosofia da prática clínica. O que essas tradições oferecem é uma forma de perguntar sobre o que está em jogo, na cena, além da eficiência.
+          </p>
+
+          <p lang="pt">
+            Não acho que produtos digitais precisem virar tratados. Mas acho que pesquisa aplicada, em domínios sensíveis, precisa começar a olhar para o que a métrica não captura. Métricas explicam comportamento — raramente explicam sentido. E sentido, em saúde, é o que sustenta confiança ao longo do tempo.
+          </p>
+
+          <h2>
+            <span lang="pt">O que eu carrego desse trabalho</span>
+            <span lang="en">What I take from this work</span>
+          </h2>
+
+          <p lang="pt">
+            Que produtos com IA, em domínios sensíveis, são uma forma nova de relação humano-máquina — e que ela exige uma forma nova de design. Não a forma de quem desenha telas, nem a de quem treina modelos, mas a de quem cuida do contrato entre os dois.
+          </p>
+
+          <p lang="pt">
+            Confiança não é uma feature. É um sistema. E é, talvez, o trabalho de design mais interessante que temos para os próximos anos.
+          </p>
+
+          <!-- versão EN, simplificada para economia de tokens -->
+          <p lang="en">
+            For years, digital product design could treat the interface as the final object. A screen, a flow, a button. The user reads, decides, clicks. The responsibility for what happened after the decision was theirs entirely. The product delivered the interface; they delivered the judgment.
+          </p>
+
+          <p lang="en">
+            With generative AI in sensitive domains, that contract has changed. What the product delivers is no longer a screen — it's <em>content</em>. A summary of a medical record. A draft contract. A portfolio allocation. And this content carries new weight: it's a proposal, made by a machine, about something that has consequences for a real person.
+          </p>
+
+          <p lang="en">
+            In healthcare, this shift is particularly clear. When a product generates a consultation summary from a recording, the output isn't "a screen." It's a clinical narrative entering the patient's chart. The doctor has to read, compare it to what they remember of the conversation, identify what's wrong, and decide what to accept, what to edit, what to delete. The cognitive work of the doctor in this flow is different from the work of someone filling out a form.
+          </p>
+
+          <blockquote lang="en">
+            The central question stopped being "is this product usable?" It became: "does this product produce a proposal trustworthy enough for the person to decide on it without redoing the whole reasoning?"
+          </blockquote>
+
+          <h2 lang="en">Accuracy is not the same as trustworthiness</h2>
+
+          <p lang="en">
+            The first trap for teams building applied AI is to confuse the two. Accuracy is what you measure by comparing the model's output against ground truth. Trustworthiness is what gets built in the relationship between the user and what the product suggests — and it depends on things the model never touches: how the output appears, how the product positions itself in relation to what it suggests, how it allows itself to be corrected, and what it does when it gets things wrong.
+          </p>
+
+          <p lang="en">
+            I've seen this firsthand leading research on clinical AI initiatives. A summary with 92% textual fidelity was rejected by doctors in nearly half of cases. The reason wasn't what was wrong — it was the feeling of not knowing, before reading, where the error would be. Doctors didn't trust what the model had done because the product gave no clue about the model's own internal certainty.
+          </p>
+
+          <p lang="en">
+            We raised precision from 92% to 96% and rejection dropped only slightly. We added a granular confidence indicator per passage of the summary — and rejection dropped by half. The model hadn't gotten better; the user had gained an instrument to spend attention where it mattered.
+          </p>
+
+          <h2 lang="en">The inheritance from cognitive ergonomics</h2>
+
+          <p lang="en">
+            This kind of problem isn't new. Cognitive ergonomics — the discipline that studies how people interact with information systems — has been working for decades with what it calls <em>automation trust</em>: the calibrated confidence an operator develops toward an automated system.
+          </p>
+
+          <p lang="en">
+            Researchers Raja Parasuraman and Christopher Wickens showed, in studies on aviation and medicine in the 1990s, that two opposing kinds of error occur in this relationship: <em>misuse</em> (over-trust without verification) and <em>disuse</em> (under-trust and ignoring). Both are costly. And both respond to design — not to model improvement.
+          </p>
+
+          <p lang="en">
+            What this means, in practice: <strong>the design of the interface between the user and the AI's output is as determinant of the outcome as the model itself.</strong> How the product communicates uncertainty. How it makes visible what it didn't see. How it invites correction without de-authorizing the model. How it lets the user disable automation when needed.
+          </p>
+
+          <h2 lang="en">Five questions that replace "is this usable"</h2>
+
+          <p lang="en">
+            In research with AI products, these are the questions I've started using in place of traditional usability heuristics. They don't replace usability testing — they work as an additional layer, specifically aimed at the trust relationship.
+          </p>
+
+          <ol lang="en">
+            <li><strong>Does the product signal, before reading, where it's likely to be wrong?</strong> Attention is finite. If the user has to read everything with equal caution, the product hasn't saved work — it's just transferred it.</li>
+            <li><strong>Is the cognitive cost of accepting symmetric to that of rejecting?</strong> If accepting is one click and rejecting requires manual editing, the product is pushing the user toward yes. That compromises judgment.</li>
+            <li><strong>Does the product record what was corrected — and show that it recorded?</strong> Without this, the user feels alone against the model, with no evidence that their correction matters.</li>
+            <li><strong>Is there a visible place for "I don't know"?</strong> Generative models can't say "I don't know" — they make things up. The product has to provide that category, and train the user to use it.</li>
+            <li><strong>What does the product do with an error discovered by the user?</strong> If the answer is "nothing," the next suggestion arrives with the same authority as the previous one. If the answer is "asks the user to flag it and uses that later," the relationship changes.</li>
+          </ol>
+
+          <h2 lang="en">The meaning behind the decision</h2>
+
+          <p lang="en">
+            There's a deeper layer I've started to investigate more recently. When a product delivers a clinical proposal, it's not just transferring information. It's participating in a scene where someone — a doctor — takes responsibility for another person. The product's summary becomes part of a decision about care.
+          </p>
+
+          <p lang="en">
+            This doesn't fit entirely in the language of UX. It fits better in languages that study meaning, attachment, and responsibility — psychoanalysis, semiotics, philosophy of clinical practice. What these traditions offer is a way to ask about what's at stake, in the scene, beyond efficiency.
+          </p>
+
+          <p lang="en">
+            I don't think digital products need to become treatises. But I do think applied research, in sensitive domains, has to start looking at what metrics don't capture. Metrics explain behavior — they rarely explain meaning. And meaning, in healthcare, is what sustains trust over time.
+          </p>
+
+          <h2 lang="en">What I carry from this work</h2>
+
+          <p lang="en">
+            That AI products in sensitive domains are a new form of human-machine relationship — and they demand a new form of design. Not the form of those who design screens, nor of those who train models, but of those who care for the contract between the two.
+          </p>
+
+          <p lang="en">
+            Trust is not a feature. It's a system. And it may be the most interesting design work we have for the next few years.
+          </p>
+
+          <div style="margin-top: var(--space-2xl); padding-top: var(--space-lg); border-top: 1px solid var(--line); font-size: var(--fs-small); color: var(--ink-muted);">
+            <p style="max-width: 580px;" lang="pt">
+              Tem alguma observação, contraponto ou caso que ressoa com isso? <a href="../contact.html" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">Adoraria saber</a>. É um tema em construção.
+            </p>
+            <p style="max-width: 580px;" lang="en">
+              Have an observation, counterpoint, or case that resonates? <a href="../contact.html" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">I'd love to hear</a>. It's a topic in progress.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__contact">
+          <h2>diana.cassel@gmail.com</h2>
+          <a href="mailto:diana.cassel@gmail.com">
+            <span lang="pt">Escreva quando quiser.</span>
+            <span lang="en">Write whenever.</span>
+          </a>
+        </div>
+        <div class="footer__meta">
+          <div>Rio de Janeiro, Brasil</div>
+          <div><a href="https://linkedin.com/in/diana-cassel">LinkedIn</a></div>
+          <div>
+            <span lang="pt">Aberta a conversas</span>
+            <span lang="en">Open to conversations</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Diana Cassel</span>
+        <span>
+          <span lang="pt">Atualizado em Maio de 2026</span>
+          <span lang="en">Updated May 2026</span>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../lang.js"></script>
+</body>
+</html>
